@@ -5,7 +5,7 @@ public class PrimeiroTrauma {
 	
 	public static void main(String[] args) {
 					
-	System.out.println("Iniciar exercícios e desafios do curso");
+	System.out.println("Iniciar exercï¿½cios e desafios do curso 2022");
 	
 	}
 
