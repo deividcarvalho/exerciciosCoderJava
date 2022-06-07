@@ -1,0 +1,25 @@
+Anotações
+
+Desafio Classes - Coder Java
+
+3 Classes:
+Pessoa, Comida, Jantar
+Jantar com main para criar uma pessoa instanciar a pessoa e 2 comidas
+
+Classe Pessoa tem
+Nome e peso
+Metodo comer recebe objeto da classe comida
+
+Classe Comida tem
+nome da comida
+peso da comida
+
+Quando passar o objeto comida para o metodo comer da pessoa
+O peso da comida deverá ser acrescentado para pessoa
+
+Classe Jantar
+Main
+Instancia comida
+Peso
+
+============================================================================
