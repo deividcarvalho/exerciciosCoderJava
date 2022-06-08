@@ -33,8 +33,8 @@ public class Exercicios {
 		System.out.println("Notas do AlunoA: "+Arrays.toString(notasAlunoA));
 
 		double total = 0;
-		for (int i = 0; i < notasAlunoA.length; i++) {
-			total += notasAlunoA[i];
+		for (double d : notasAlunoA) {
+			total += d;
 		}
 
 		System.out.println("A média do aluno A é: " + total / notasAlunoA.length);
@@ -47,8 +47,8 @@ public class Exercicios {
 		System.out.println("Notas do AlunoB: "+Arrays.toString(notasAlunoB));
 
 		double totalNotaB = 0;
-		for (int i = 0; i < notasAlunoB.length; i++) {
-			totalNotaB += notasAlunoB[i];
+		for (double d : notasAlunoB) {
+			totalNotaB =+ d;
 		}
 		
 		System.out.println("A média do aluno B é: "+totalNotaB/notasAlunoB.length);
