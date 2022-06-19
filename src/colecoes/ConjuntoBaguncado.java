@@ -6,22 +6,27 @@ public class ConjuntoBaguncado {
 	
 	public static void main(String[] args) {
 		
-		HashSet conjunto = new HashSet();
+		HashSet conjuntoPais = new HashSet();
 		
-		conjunto.add("Deivid");
-		conjunto.add(5);
-		conjunto.add(1);
-		conjunto.add(3);
-		conjunto.add(true);
-		conjunto.add(22.6);
-		conjunto.add("Vanêssa");
+		conjuntoPais.add("Deivid");
+		conjuntoPais.add("Vanêssa");
+		conjuntoPais.add("Família");
+		
+		HashSet conjuntoFilhos = new HashSet();
+		conjuntoFilhos.add("Fernanda");
+		conjuntoFilhos.add("Felipe");
+		conjuntoFilhos.add("Família");
+		
+		System.out.println("Pais: "+conjuntoPais.toString());
+		System.out.println("Filhos: "+conjuntoFilhos.toString());
+		
+		conjuntoPais.addAll(conjuntoFilhos); //União de um conjunto com outro
+		System.out.println(conjuntoPais.toString());
+		
+		conjuntoPais.retainAll(conjuntoFilhos); // Intercessão entre dois conjuntos (O que tem em comum entre eles!)
 
+		System.out.println(conjuntoPais);
 		
-		System.out.println(conjunto.toString());
-		
-		System.out.println(conjunto.contains("Vanessa"));
-		
-		System.out.println("Tamanho do conjunto: "+conjunto.size());
 		
 	}
 
