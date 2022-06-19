@@ -1,7 +1,5 @@
 package colecoes;
 
-import java.util.HashSet;
-import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -19,6 +17,7 @@ public class conjuntoComportado {
 		
 		//SortedSet (Várias funções de ordenação) 
 		//TreeSet (Classifica o conjunto)
+		//  <> é generics
 		SortedSet<String> alunosAprovados = new TreeSet<String>();
 		
 		
