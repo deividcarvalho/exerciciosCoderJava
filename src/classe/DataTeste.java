@@ -4,9 +4,9 @@ public class DataTeste {
 	
 	public static void main(String[] args) {
 		Data d1 = new Data ();
-		d1.dia = 24;
-		d1.mes = 11;
-		d1.ano = 1982;
+		d1.dia = 25;
+		d1.mes = 12;
+		d1.ano = 2022;
 		
 		Data d2 = new Data();
 		d2.dia = 6;
